@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am an undergraduate Honors Physics student currently studying at the University of Alberta. I was interested in laws of motion from a young age, and I enjoy tackling problems of any kind, from challenging math problems, to crossword puzzles, to deciphering elusive novels. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Recently I have been researching Turing pattern formation under some great professors and tutoring fellow students. Outside of studying for my classes I am learning web development and history. I hope to never stop inquiring about our world and whatever lies beyond.
