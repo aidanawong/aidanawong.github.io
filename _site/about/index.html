@@ -20,7 +20,22 @@
 {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Aidan Wong"},"description":"Welcome to my website!","headline":"About","name":"Aidan’s Website","url":"http://localhost:4000/about/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
-  <link rel="shortcut icon" type="image/svg" href="/assets/images/favicon.svg"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Aidan&apos;s Website" /></head>
+
+  <!-- Insert favicon, not default-->
+  <link rel="shortcut icon" type="image/svg" href="/assets/images/favicon.svg">
+
+  <!-- Katex, not default 
+  Source: https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              // ...options...
+          });
+      });
+  </script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Aidan&apos;s Website" /></head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Aidan&#39;s Website</a><nav class="site-nav">
@@ -33,7 +48,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/other/">Other</a><a class="page-link" href="/tutoring/">Tutoring</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/other/">Resumé</a><a class="page-link" href="/tutoring/">Tutoring</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">

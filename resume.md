@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Other
-permalink: /other/
+layout: page
+title: Resumé
+permalink: /resume/
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
@@ -99,18 +99,11 @@ end
 ![log image](/assets/images/grow_c4_log_1_A.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 ![animated image](/assets/images/c4_s3_lin.gif){:style="display:block; margin-left:auto; margin-right:auto"}
 
-### Definition lists can be used with HTML syntax.
+#### Latex
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+Inline latex like $$\pi$$.
+
+$$e^{ix} = \cos{x} + i\sin{x}$$
 
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
