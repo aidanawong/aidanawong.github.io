@@ -34,6 +34,9 @@ github_username:  aidanawong
 # Fields minima uses, but are not default
 author: Aidan Wong
 copyright: "Aidan Wong"
+# Katex
+kramdown:
+  math_engine: katex
 
 # Build settings
 # Removed minima theme as it is now a regular theme
