@@ -19,10 +19,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Aidan Wong
+title: Aidan's Website
 email: aidan.ck.wong@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my website.
+  Welcome to my website!
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -31,13 +31,17 @@ baseurl: ""                          # place folder name if the site is served i
 url: "https://aidanawong.github.io"  # the base hostname and protocol for your site, e.g. http://example.com
 github_username:  aidanawong
 
+# Fields minima uses, but are not default
+author: Aidan Wong
+copyright: "Aidan Wong"
+
 # Build settings
 # Removed minima theme as it is now a regular theme
 # theme: minima
 # remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  # - jekyll-remote-theme # use with slate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
