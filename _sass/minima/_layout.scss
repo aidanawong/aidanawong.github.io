@@ -6,6 +6,12 @@
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
+  // Banner image, not default
+  background-image: url('/assets/images/bground_soil.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
+
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -20,7 +26,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $title-color; // changed from $grey-color; to $title-color; for more customization.
   }
 }
 
@@ -37,7 +43,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $nav-color; // changed from $text-color; to $nav-color; 
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -107,6 +113,13 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
+
+  // Banner image, not default
+  background-image: url('/assets/images/bground_soil.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
+
   padding: $spacing-unit 0;
 }
 
