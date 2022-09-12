@@ -15,26 +15,31 @@ $spacing-unit:     30px !default;
 
 // Colours
 // Default named colours
-
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
+// Custom named colours
+$icterine: #fcf75e;
+$honeydew: #F0FFF0;
+
 // Custom colour variables
 $title-color:      $grey-color !default;
 $nav-color:        #fcf75e !default;
-$block-color:      #82A3FF !default;
+$block-color:      chocolate !default;
 $code-bg-color:    #282C34 !default;
-$table-color:      $grey-color-dark !default;
+$table-color:      $grey-color-light !default;
 
 // Default colour variables
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
-// Changeables 
-$title-color:      #fdfdfd; 
-$text-color:       #fdfdfd;
+// Dark mode 
+// $title-color:      #fdfdfd; 
+// $text-color:       #fdfdfd;
+// $table-color:      $grey-color-dark;
+// $block-color:      #82A3FF;
 
 $table-text-align: left !default;
 

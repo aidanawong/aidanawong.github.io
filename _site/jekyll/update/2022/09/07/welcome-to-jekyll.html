@@ -36,10 +36,9 @@
               // ...options...
           });
       });
-  </script>
-
-  <!-- Background image, not default
-  Source: https://talk.jekyllrb.com/t/how-to-add-a-background-image-to-entire-site/4198/7 -->
+  </script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Aidan&apos;s Website" /></head>
+<!-- Background image, not default
+  Source: https://talk.jekyllrb.com/t/how-to-add-a-background-image-to-entire-site/4198/7 
   <style>
   body {
     background-image: url('/assets/images/bground_swish.jpg');
@@ -47,8 +46,15 @@
     background-attachment: fixed;  
     background-size: cover; 
   }
-  </style><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Aidan&apos;s Website" /></head>
-<body><header class="site-header" role="banner">
+  </style>-->
+
+  <style>
+    body {
+      background-color: honeydew
+    }
+    </style>
+
+  <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Aidan&#39;s Website</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -67,7 +73,17 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Welcome to Jekyll!</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-09-07T23:46:48-06:00" itemprop="datePublished">Sep 7, 2022
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
@@ -85,6 +101,9 @@
 
 <p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
+
+  </div><a class="u-url" href="/jekyll/update/2022/09/07/welcome-to-jekyll.html" hidden></a>
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

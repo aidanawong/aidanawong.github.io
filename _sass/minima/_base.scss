@@ -130,7 +130,7 @@ a {
  */
 blockquote {
   color: $block-color; // Changed from $grey-color;
-  border-left: 4px solid $grey-color-light;
+  border-left: 4px solid $grey-color; // Changed from $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
@@ -149,9 +149,10 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $code-bg-color; // Changed from $grey-color-light; to $grey-color-dark;
+  border: 1px solid $code-bg-color; // Changed from $grey-color-light; 
   border-radius: 3px;
-  background-color: $code-bg-color; // Changed from #eef; to $grey-color-dark;
+  background-color: $code-bg-color; // Changed from #eef; 
+  color: #E7F6F2 // Not default, changes main code text colour
 }
 
 code {

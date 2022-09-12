@@ -21,17 +21,6 @@
       });
   </script>
 
-  <!-- Background image, not default
-  Source: https://talk.jekyllrb.com/t/how-to-add-a-background-image-to-entire-site/4198/7 -->
-  <style>
-  body {
-    background-image: url('{{ site.baseurl }}/assets/images/bground_swish.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover; 
-  }
-  </style>
-
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
