@@ -7,7 +7,9 @@
   min-height: $spacing-unit * 1.865;
 
   // Banner image, not default
-  background-image: url('/assets/images/bground_soil.jpg');
+  // Creates a gradient starting with black on top to make text easier to read
+  // linear-gradient(180deg, #00000088 30%, #ffffff44 100%); 
+  background-image: url('/assets/images/bground_dark_blue.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover; 
@@ -115,7 +117,9 @@
   border-top: 1px solid $grey-color-light;
 
   // Banner image, not default
-  background-image: url('/assets/images/bground_soil.jpg');
+  // Creates a gradient starting with black on the bottom to make text easier to read
+  // linear-gradient(0deg, #00000088 30%, #ffffff44 100%); 
+  background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%), url('/assets/images/bground_deep_blue.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover; 
@@ -125,6 +129,7 @@
 
 .footer-heading {
   @include relative-font-size(1.125);
+  color: $title-color; // Not default
   margin-bottom: $spacing-unit / 2;
 }
 
