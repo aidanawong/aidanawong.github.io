@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+background_image: bground_swirls.jpg
 ---
 
 I am currently physics student. I was interested in laws of motion from a young age, and I enjoy tackling problems of any kind, from challenging math problems, to crossword puzzles, to deciphering elusive novels. 

@@ -3,22 +3,24 @@
 
   {%- include head.html -%}
 
-  <!-- Background image, not default
-  Source: https://talk.jekyllrb.com/t/how-to-add-a-background-image-to-entire-site/4198/7 
-  <style>
-  body {
-    background-image: url('{{ site.baseurl }}/assets/images/bground_swish.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover; 
-  }
-  </style> -->
-
-  <style>
+  {%- if page.background_image -%}
+    <!-- Background image, not default
+    Source: https://talk.jekyllrb.com/t/how-to-add-a-background-image-to-entire-site/4198/7 -->
+    <style>
     body {
-      background-color: honeydew
+      background-image: url('{{ site.baseurl }}/assets/images/{{ page.background_image }}');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover; 
+    }
+    </style> 
+  {%- else -%}
+    <style>
+    body {
+      background-color: honeydew;
     }
     </style>
+  {%- endif -%}
 
   <body>
 
