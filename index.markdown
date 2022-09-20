@@ -5,3 +5,5 @@
 layout: home
 background_image: bground_white_marble.jpg
 ---
+
+![animated polygon](/assets/images/dodecahedron_rotating_blue.gif){:style="display:block; margin-left:auto; margin-right:auto"}
