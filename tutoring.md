@@ -10,8 +10,8 @@ To contact me feel free to email me at [aptitude.edututor@gmail.com](aptitude.ed
 
 # Pricing
 
-| Grade Level    | Cost per hour          | 
+| Grade Level  | Cost per hour     | 
 |:-------------|:------------------|
-| K-6   | $15               |
-| 7-9  | $25               | 
-| 10-12  | $35               | 
+| K-6          | $15               |
+| 7-9          | $25               | 
+| 10-12        | $35               | 
